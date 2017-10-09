@@ -1,0 +1,28 @@
+{
+    "name": "feldwebel/immutable",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Tereschenko",
+            "email": "daniel@tereschenko.info"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+
+}
